@@ -12,12 +12,8 @@ just single HTML
 ```html
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
 <title>kawakudari</title>
-<script src="https://unpkg.com/sounds-some-sounds@1.0.5/build/index.js"></script> <!-- https://github.com/abagames/sounds-some-sounds -->
-<script src="https://unpkg.com/pixi.js@5.3.0/dist/pixi.min.js"></script> <!-- https://www.pixijs.com/ -->
-<script src="https://unpkg.com/pixi-filters@3.1.1/dist/pixi-filters.js"></script> <!-- https://www.pixijs.com/ -->
-<script src="https://abagames.github.io/crisp-game-lib/bundle.js"></script> <!-- https://github.com/abagames/crisp-game-lib -->
-
 <script type="module">
+import { onLoad, ticks, input, end, vec, rnd, addScore, remove, text, play } from "https://taisukef.github.io/crisp-game-lib/es/main.js";
 
 window.title = "kawakudari";
 window.description = `
@@ -29,7 +25,7 @@ window.options = {
   isPlayingBgm: true,
   isReplayEnabled: true,
   seed: 0, // sound seed
-  //theme: "crt",
+  theme: document.location.hash.substring(1), // crt, pixel, dark
 };
 
 let y = 20;
@@ -65,11 +61,10 @@ window.update = () => { // canvas size 100x100
   }
   remove(enemy, (e) => e.y < -10);
 };
-window.addEventListener("load", onLoad);
 
+window.addEventListener("load", onLoad);
 </script>
 </head>
-<body style="background: #ddd;">
 </html>
  ```
 
