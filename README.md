@@ -82,5 +82,5 @@ window.addEventListener("load", onLoad);
 
 ## 解説ブログ
 
-- シンプルでかわいいミニゲームをブラウザのみでサクッと作ろう、crisp-game-libでかわくだり！](https://fukuno.jig.jp/3251)
+- [シンプルでかわいいミニゲームをブラウザのみでサクッと作ろう、crisp-game-libでかわくだり！](https://fukuno.jig.jp/3251)
 
