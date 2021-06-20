@@ -1,6 +1,6 @@
 # kawakudari
- 
-https://user-images.githubusercontent.com/1715217/122657777-7e124b00-d1a1-11eb-908b-3490b8a49735.mp4
+
+https://user-images.githubusercontent.com/1715217/122673126-03c9e100-d20a-11eb-90db-949f6b52527a.mp4
 
 ## demo
 
