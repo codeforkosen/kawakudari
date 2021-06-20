@@ -78,5 +78,4 @@ window.addEventListener("load", onLoad);
 
 ## lib
 
-- [crisp-game-lib by abagames](https://github.com/abagames/crisp-game-lib)
-
+- [crisp-game-lib ES module version](https://github.com/taisukef/crisp-game-lib) forked from [crisp-game-lib by abagames](https://github.com/abagames/crisp-game-lib)
